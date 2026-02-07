@@ -1,4 +1,5 @@
 import { Check, HelpCircle, Minus } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import Navbar from "../../components/layout/Navbar";
 import Footer from "../../components/layout/Footer";
 import { useContent } from "../../context/ContentContext";
@@ -6,6 +7,7 @@ import { useContent } from "../../context/ContentContext";
 export default function Pricing() {
   const { state } = useContent();
   const { plans } = state;
+  const navigate = useNavigate();
 
   return (
     <>
@@ -55,6 +57,7 @@ export default function Pricing() {
                 ))}
               </ul>
               <button
+                onClick={() => navigate("/start-trial")}
                 className={`w-full py-4 rounded-xl font-bold transition-all ${plan.isPopular ? "bg-[var(--primary-color)] text-black hover:bg-[var(--primary-color)]/90 hover:scale-105" : "bg-gray-800 text-white hover:bg-gray-700"}`}
               >
                 Join Now
@@ -63,8 +66,8 @@ export default function Pricing() {
           ))}
         </div>
 
-        {/* Compare Features Table (New) */}
-        <div className="mb-24">
+        {/* Compare Features Table (New) - Desktop View */}
+        <div className="hidden md:block mb-24">
           <h2 className="text-3xl font-bold text-center mb-12">
             Compare Features
           </h2>
@@ -166,6 +169,39 @@ export default function Pricing() {
           </div>
         </div>
 
+        {/* Mobile Features List (Alternative to Table) */}
+        <div className="md:hidden mb-16 space-y-8">
+          <h2 className="text-2xl font-bold text-center mb-8">Plan Features</h2>
+          {state.plans.map((plan) => (
+            <div
+              key={plan.id}
+              className="bg-gray-900 p-6 rounded-2xl border border-gray-800"
+            >
+              <h3 className="text-xl font-bold text-[var(--primary-color)] mb-4">
+                {plan.title} Includes:
+              </h3>
+              <ul className="space-y-3">
+                {plan.features.map((f, i) => (
+                  <li
+                    key={i}
+                    className="flex items-start text-sm text-gray-300"
+                  >
+                    <Check className="w-4 h-4 text-[var(--primary-color)] mr-2 shrink-0 mt-0.5" />
+                    {f}
+                  </li>
+                ))}
+                {/* Specific feature highlights for mobile */}
+                {plan.title === "Pro" && (
+                  <li className="flex items-start text-sm text-white font-bold">
+                    <Check className="w-4 h-4 text-[var(--primary-color)] mr-2 shrink-0 mt-0.5" />
+                    Quarterly 1-on-1 Calls
+                  </li>
+                )}
+              </ul>
+            </div>
+          ))}
+        </div>
+
         {/* FAQ Section (New) */}
         <div className="max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl font-bold text-center mb-12">
@@ -207,6 +243,32 @@ export default function Pricing() {
               Talk to an advisor
             </a>
           </p>
+        </div>
+      </section>
+
+      {/* Pricing CTA - DESKTOP */}
+      <section className="hidden md:block py-24 bg-gray-950 border-t border-gray-900">
+        <div className="max-w-4xl mx-auto text-center px-4">
+          <h2 className="text-white text-4xl font-bold mb-6">
+            Still have questions?
+          </h2>
+          <p className="text-gray-400 text-xl mb-10">
+            Our elite coaches are ready to help you define your path.
+          </p>
+          <button className="bg-white text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition-colors">
+            Book a Consultation
+          </button>
+        </div>
+      </section>
+
+      {/* Pricing CTA - MOBILE */}
+      <section className="md:hidden py-12 bg-[var(--primary-color)] text-black">
+        <div className="px-4 text-center">
+          <h2 className="text-3xl font-black italic mb-4">NOT SURE?</h2>
+          <p className="font-medium mb-8">Chat with a coach instantly.</p>
+          <button className="w-full bg-black text-white py-4 rounded-xl font-bold">
+            Chat Now
+          </button>
         </div>
       </section>
       <Footer />

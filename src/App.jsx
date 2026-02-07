@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { ContentProvider } from "./context/ContentContext";
 
 // Public Pages (Placeholders)
@@ -6,6 +6,8 @@ import Home from "./pages/public/Home";
 import Pricing from "./pages/public/Pricing";
 import About from "./pages/public/About";
 import Contact from "./pages/public/Contact";
+import StartFreeTrial from "./pages/public/StartFreeTrial";
+import ExploreFeatures from "./pages/public/ExploreFeatures";
 import AdminLayout from "./components/layout/AdminLayout";
 import ProtectedRoute from "./components/layout/ProtectedRoute";
 
@@ -22,7 +24,7 @@ import ScrollToTop from "./components/layout/ScrollToTop";
 function App() {
   return (
     <ContentProvider>
-      <Router basename={import.meta.env.BASE_URL}>
+      <Router>
         <ScrollToTop />
         <div className="min-h-screen bg-slate-900 text-white">
           <Routes>
@@ -31,6 +33,8 @@ function App() {
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/start-trial" element={<StartFreeTrial />} />
+            <Route path="/explore" element={<ExploreFeatures />} />
 
             {/* Admin Routes */}
             {/* Admin Routes */}
