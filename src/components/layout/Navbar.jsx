@@ -22,7 +22,7 @@ export default function Navbar() {
               to="/"
               className="text-2xl font-bold text-white tracking-tighter"
             >
-              KADORA<span className="text-[var(--primary-color)]">.</span>
+              DRACO<span className="text-[var(--primary-color)]">.</span>
             </Link>
           </div>
 

@@ -38,7 +38,7 @@ export default function AdminLayout({ children }) {
       {/* Mobile Header */}
       <div className="md:hidden fixed top-0 w-full bg-gray-950 border-b border-gray-800 p-4 z-50 flex justify-between items-center">
         <h1 className="text-xl font-bold tracking-tighter">
-          KADORA<span className="text-[var(--primary-color)]">.</span>{" "}
+          DRACO<span className="text-[var(--primary-color)]">.</span>{" "}
           <span className="text-xs bg-gray-800 px-2 py-1 rounded text-gray-400 font-normal">
             Admin
           </span>
@@ -55,7 +55,7 @@ export default function AdminLayout({ children }) {
         <div className="mb-10 hidden md:flex flex-col">
           <div className="flex items-center mb-6">
             <h1 className="text-2xl font-bold tracking-tighter">
-              KADORA<span className="text-[var(--primary-color)]">.</span>
+              DRACO<span className="text-[var(--primary-color)]">.</span>
             </h1>
             <span className="ml-2 text-xs bg-gray-800 px-2 py-1 rounded text-gray-400">
               Admin

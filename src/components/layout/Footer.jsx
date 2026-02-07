@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-1">
             <h2 className="text-2xl font-bold tracking-tighter text-white mb-6">
-              KADORA<span className="text-[var(--primary-color)]">.</span>
+              DRACO<span className="text-[var(--primary-color)]">.</span>
             </h2>
             <div className="flex space-x-4">
               <a
@@ -71,7 +71,7 @@ export default function Footer() {
               Company
             </h3>
             <ul className="space-y-4">
-              {["About Kadora", "Our Trainers", "Careers", "Press & Media"].map(
+              {["About Draco", "Our Trainers", "Careers", "Press & Media"].map(
                 (item) => (
                   <li key={item}>
                     <a
@@ -108,7 +108,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-900 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
           <p>
-            &copy; {new Date().getFullYear()} Kadora Fitness Inc. All Rights
+            &copy; {new Date().getFullYear()} Draco Fitness Inc. All Rights
             Reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">

@@ -1,9 +1,9 @@
 {
-  "name": "kadora-app",
+  "name": "draco-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Sriram-Dee.github.io/kadora-fitness-app",
+  "homepage": "https://Sriram-Dee.github.io/draco-fitness-app",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

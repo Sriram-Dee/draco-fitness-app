@@ -40,14 +40,14 @@ export default function StartFreeTrial() {
 
             <div className="relative z-10 max-w-lg mx-auto md:mx-0">
               <h1 className="text-[var(--primary-color)] font-bold tracking-widest mb-4 uppercase">
-                WHY JOIN KADORA?
+                WHY JOIN DRACO?
               </h1>
               <h2 className="text-4xl md:text-6xl font-black italic tracking-tighter mb-6 text-white leading-none">
                 TRANSFORM YOUR BODY <br /> IN 14 DAYS.
               </h2>
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                Join thousands of elite athletes who trust Kadora for their
-                daily training. No commitment required.
+                Join thousands of elite athletes who trust Draco for their daily
+                training. No commitment required.
               </p>
 
               <ul className="space-y-4">

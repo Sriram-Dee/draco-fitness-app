@@ -215,7 +215,7 @@ export default function Pricing() {
               },
               {
                 q: 'What is the "Custom Kit"?',
-                a: "Athletes receive a quarterly care package with Kadora branded supplements, apparel, and specialized training equipment.",
+                a: "Athletes receive a quarterly care package with Draco branded supplements, apparel, and specialized training equipment.",
               },
               {
                 q: "Do you offer family plans?",

@@ -25,7 +25,7 @@ export default function ThemeManager() {
     <>
       <header className="mb-8">
         <h1 className="text-3xl font-bold">Theme Manager</h1>
-        <p className="text-gray-400">Customize the look and feel of Kadora.</p>
+        <p className="text-gray-400">Customize the look and feel of Draco.</p>
       </header>
 
       <div className="grid md:grid-cols-2 gap-8">
@@ -76,7 +76,7 @@ export default function ThemeManager() {
                 className="text-lg text-gray-300"
                 style={{ fontFamily: theme.font_family_body }}
               >
-                This is how your body text will look. Kadora uses modern
+                This is how your body text will look. Draco uses modern
                 sans-serif fonts to maintain readability while looking premium.
               </p>
               <p className="text-gray-500 text-sm mt-2">

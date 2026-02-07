@@ -55,7 +55,7 @@ export default function ExploreFeatures() {
             MORE THAN JUST AN APP.
           </h2>
           <p className="text-xl text-gray-400">
-            Kadora is a complete performance platform designed to replace your
+            Draco is a complete performance platform designed to replace your
             trainer, nutritionist, and workout log.
           </p>
         </div>

@@ -69,10 +69,10 @@ export default function Contact() {
                 For general inquiries and support.
               </p>
               <a
-                href="mailto:support@kadora.com"
+                href="mailto:support@draco.com"
                 className="text-white font-bold hover:text-[var(--primary-color)] transition-colors text-lg"
               >
-                support@kadora.com
+                support@draco.com
               </a>
             </div>
 

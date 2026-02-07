@@ -80,7 +80,7 @@ export default function About() {
                 unshakeable confidence."
               </h3>
               <p className="text-xl text-gray-400 mb-6 leading-relaxed">
-                Kadora was founded on a simple principle: human potential is
+                Draco was founded on a simple principle: human potential is
                 nearly limitless when ignited by the right environment.
               </p>
               <p className="text-xl text-gray-400 mb-8 leading-relaxed">

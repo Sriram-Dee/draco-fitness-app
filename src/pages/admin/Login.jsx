@@ -9,11 +9,11 @@ export default function Login() {
   const handleLogin = (e) => {
     e.preventDefault();
     // Fake Auth
-    if (email === "admin@kadora.com" && password === "admin") {
+    if (email === "admin@draco.com" && password === "admin") {
       localStorage.setItem("isAdmin", "true");
       navigate("/admin");
     } else {
-      alert("Invalid credentials (Try: admin@kadora.com / admin)");
+      alert("Invalid credentials (Try: admin@draco.com / admin)");
     }
   };
 
@@ -33,7 +33,7 @@ export default function Login() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-[var(--primary-color)]"
-              placeholder="admin@kadora.com"
+              placeholder="admin@draco.com"
             />
           </div>
           <div>

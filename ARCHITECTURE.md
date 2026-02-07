@@ -2,7 +2,7 @@
 
 ## Overview
 
-Kadora Fitness App is a client-side React application designed for high performance and dynamic content management. It utilizes a `ContentContext` to simulate a database, allowing for instant updates to the application state without a backend for this foundational phase.
+Draco Fitness App is a client-side React application designed for high performance and dynamic content management. It utilizes a `ContentContext` to simulate a database, allowing for instant updates to the application state without a backend for this foundational phase.
 
 ## Directory Structure
 

@@ -1,7 +1,7 @@
 # LinkedIn Post Draft
 
 **Status**: Ready for Review
-**Topic**: Building Kadora Fitness in 1 Hour with AI & MCP
+**Topic**: Building Draco Fitness in 1 Hour with AI & MCP
 
 ---
 
@@ -9,7 +9,7 @@
 
 **Headline**: From Concept to Live Deployment in UNDER 60 Minutes
 
-I just built and deployed **Kadora Fitness**, a modern React application, using a single AI agent powered by the **Model Context Protocol (MCP)**.
+I just built and deployed **Draco Fitness**, a modern React application, using a single AI agent powered by the **Model Context Protocol (MCP)**.
 
 The goal was ambitious: take a blank slate and turn it into a deployed, functional, and beautiful application in one sitting.
 
@@ -23,10 +23,10 @@ The goal was ambitious: take a blank slate and turn it into a deployed, function
 This demonstrates the power of **Agentic AI** + **MCP**. It's not just about writing code; it's about understanding the _entire_ lifecycle of software development.
 
 **Check out the live demo:**
-[https://Sriram-Dee.github.io/kadora-fitness-app/](https://Sriram-Dee.github.io/kadora-fitness-app/)
+[https://Sriram-Dee.github.io/draco-fitness-app/](https://Sriram-Dee.github.io/draco-fitness-app/)
 
 **Explore the Code:**
-[https://github.com/Sriram-Dee/kadora-fitness-app](https://github.com/Sriram-Dee/kadora-fitness-app)
+[https://github.com/Sriram-Dee/draco-fitness-app](https://github.com/Sriram-Dee/draco-fitness-app)
 
 ---
 
@@ -42,4 +42,4 @@ _(Please attach the following screenshots here)_
 
 ## #Hashtags
 
-#AI #ModelContextProtocol #React #WebDevelopment #SpeedRun #KadoraFitness #BuildInPublic #SoftwareEngineering #FutureOfWork #Vite #TailwindCSS
+#AI #ModelContextProtocol #React #WebDevelopment #SpeedRun #DracoFitness #BuildInPublic #SoftwareEngineering #FutureOfWork #Vite #TailwindCSS

@@ -1,19 +1,19 @@
-# Kadora Fitness App
+# Draco Fitness App
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
 
-A modern, high-performance fitness application built with React, Vite, and Tailwind CSS. Kadora Fitness features a public-facing website for potential members and a comprehensive admin dashboard for content and subscription management.
+A modern, high-performance fitness application built with React, Vite, and Tailwind CSS. Draco Fitness features a public-facing website for potential members and a comprehensive admin dashboard for content and subscription management.
 
 ## 🚀 Live Demo
 
-**[View Live Application](https://Sriram-Dee.github.io/kadora-fitness-app/)**
+**[View Live Application](https://Sriram-Dee.github.io/draco-fitness-app/)**
 
 ## 🎨 Design
 
 This project was designed using Stitch.
-**[View Stitch Design (Kadora Fitness Home)](https://stitch.design/project/3763259325044210198)**
+**[View Stitch Design (Draco Fitness Home)](https://stitch.design/project/3763259325044210198)**
 
 ## ✨ Features
 
@@ -45,8 +45,8 @@ This project was designed using Stitch.
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/Sriram-Dee/kadora-fitness-app.git
-   cd kadora-fitness-app
+   git clone https://github.com/Sriram-Dee/draco-fitness-app.git
+   cd draco-fitness-app
    ```
 
 2. **Install dependencies**

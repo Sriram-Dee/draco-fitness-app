@@ -22,7 +22,7 @@ export default function Home() {
     <>
       <Navbar />
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
         <div className="absolute inset-0 z-0">
           <img
             src={state.site_content.home_hero.image_url}
@@ -53,7 +53,7 @@ export default function Home() {
             {state.site_content.home_hero.subtitle}
           </p>
           <p className="md:hidden text-lg text-gray-300 mb-8 max-w-xs mx-auto animate-fade-in-up delay-200">
-            Train harder, recover faster, and crush your goals with Kadora.
+            Train harder, recover faster, and crush your goals with Draco.
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 animate-fade-in-up delay-300 mb-16">
@@ -106,9 +106,9 @@ export default function Home() {
       {/* Features Section */}
       <section id="features" className="py-24 bg-gray-950 relative">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-end mb-20">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 md:mb-20">
             <div className="max-w-2xl">
-              <h2 className="text-5xl md:text-6xl font-black uppercase italic text-white leading-none mb-4">
+              <h2 className="text-3xl sm:text-4xl md:text-6xl font-black uppercase italic text-white leading-none mb-4">
                 Redefine Your
                 <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">
@@ -202,7 +202,7 @@ export default function Home() {
             {[
               {
                 quote:
-                  "Last 30lbs and completely changed my mindset. The community at Kadora keeps me coming back every single morning.",
+                  "Last 30lbs and completely changed my mindset. The community at Draco keeps me coming back every single morning.",
                 name: "Marcus R.",
                 role: "Member since 2022",
                 image:
